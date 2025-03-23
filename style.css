@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(210, 36%, 90%, 0.84);
+    color: #333;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    height: 60px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-list li {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.4s;
+}
+
+.nav-list li:hover {
+    background-color: hsla(0, 0%, 100%, 0.26);
+    border-radius: 5px;
+}
+
+
+.hero-section {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    
+}
+
+.hero-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid hsla(326, 57%, 84%, 0.489);
+}
+
+.exp {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.experience-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px hsla(0, 6%, 18%, 0.632);
+    transition: transform 0.3s;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.skills {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.skills-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.skills-list li {
+    padding: 10px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px hsla(0, 4%, 15%, 0.258);
+    transition: 0.3s;
+}
+
+.skills-list li:hover {
+    background-color: hsla(0, 0%, 73%, 0.749);
+}
+
+.education {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.education-list {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.education-list th, .education-list td {
+    border: 1px solid hsl(0, 0%, 87%);
+    padding: 10px;
+}
+
+.education-list th {
+    background-color: hsla(0, 0%, 13%, 0.877);
+    color: white;
+}
+
+.contact {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.total-sec {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+form {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid hsl(0, 5%, 72%);
+    border-radius: 5px;
+}
+
+button {
+    background-color: hsl(269, 85%, 43%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: hsl(218, 97%, 57%);
+}
+
+.address-bar {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    background: hsl(0, 0%, 15%);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
